@@ -1,0 +1,32 @@
+*{margin:0; overflow-y:hidden; overflow-x:hidden; text-decoration: none;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.navbar{position: absolute;margin-left: 100px;width: 90%;height: 200px;font-size: medium;}
+.viber{position:absolute;background-repeat: no-repeat;background-image:url("viber.png");background-size: cover;border: 0px;border-radius: 50%;padding:20px;top:1070px;left:400px;}
+.viber:hover{opacity: 0.8;}
+.whatsapp{position: absolute;background-repeat: no-repeat;background-image:url("whatsapp.jpg");background-size: cover;border: 0px;border-radius: 50%;padding: 20px;top:1070px;left:470px;}
+.whatsapp:hover{opacity: 0.8;}
+.telegram{position: absolute;background-repeat: no-repeat;background-image:url("telegram.png");background-size: cover;border:0px;border-radius: 50%;padding: 20px;top:1070px;left:540px;}
+.telegram:hover{opacity: 0.8;}
+.popup{position: fixed;width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);top:0;left:0;visibility: hidden;z-index: 1;}
+.popup:target{visibility: visible;}
+.popupbody{min-height: 100%;display: flex;align-items: center;justify-content: center;padding:30px 10px;}
+.popupcontent{background-color: #fff;color:#000;max-width: 800px;padding:30px;position: relative;}
+.popupclose{position: absolute;right:10px;top:10px;font-size: 20px;color:#000;text-decoration: none;}
+.popuptitle{font-size: 40px;margin: 0px 0px 1em 0px;text-align: center;}
+.popuptext{font-size: medium;}
+.popupbutton{position: absolute;border: 0px;border-radius: 12px;padding: 20px;color:white;background-color: orange;top:180px;right:160px}
+.popupbutton:hover{opacity: 0.8;}
+.content{position: absolute;width: 100%;height: 955px;top:200px;}
+.greenbutton{position:absolute;border:0px;border-radius: 12px;padding: 20px;color:white;background-color: greenyellow;top:340px;left:300px}
+.greenbutton:hover{opacity: 0.8;}
+.orangebutton{position: absolute;border:0px;border-radius: 12px;padding: 20px;color:white;background-color:orange;top:340px;left:500px}
+.orangebutton:hover{opacity: 0.8;}
+.container{display:flex;flex-direction:column;flex:100%;top:200px;left:0;background:white;box-shadow: 0 4px 8px 0 rgba(0,0,0,.75);height: 450px;width: 200px;border-radius: 12px;margin-left: 400px;margin-top: 500px;}
+.menu{position: fixed;width:100%;height:100%;top:0;left:0;visibility: hidden;z-index: 1;}
+.menu:target{visibility: visible;}
+.menubutton{position: absolute;border:0px;border-radius: 50%;padding:20px;top:20px;right:40px;background-color: cadetblue;}
+.menubody{min-height: 100%;display: flex;align-items: center;justify-content: center;padding: 0px 0px;}
+.menucontent{background-color: cadetblue;color:#000;width: 925px;padding:40px;position: relative;height: 1050px;}
+.menuclose{position: absolute;right:40px;top:60px;color:black;text-decoration: none;font-size: 20px;border-radius: 50%;background-color: aquamarine;padding:20px;}
+.menutitle{font-size: 40px;margin:0px 0px 1em 0px;text-align: center;}
+.menutext{font-size: medium;}
+.pdfbutton{position: absolute;left:300px;top:930px;color:lawngreen;font-size:20px;border-radius: 50%;padding: 20px;background-color: white;border:0;}

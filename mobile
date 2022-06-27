@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="cssmobile.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+        <script src="jquery.js"></script>
+        <script src="jquery.maskedinput.min.js"></script>
+        <title>Тестовое для верстальщика</title>
+        </head>
+        <body>
+            <header>
+                <div class="navbar">
+                    <img style="position: absolute;left:0px;top:20px;width:15%"src="image.png">
+                    <a style="position: absolute;left:270px; top:30px;font-weight: bold;">&bull;Пн-Пт</a>
+                    <a style="position: absolute;left:320px;top:30px">9:00 - 18:00,</a>
+                    <a style="position: absolute;left:420px;top:30px;font-weight: bold;">Сб</a>
+                    <a style="position: absolute;left:440px;top:30px;">10:00 - 18:00</a>
+                    <a style="position: absolute;left:300px;top:50px;font-size: x-large;font-weight: bold;color:black"href="tel:+7(800)222-54-60">8 (800) 222-54-60</a>
+                    <a style="position: absolute;left:350px;top:80px;color:lawngreen;font-weight: bold;" href="#popup">Позвоните мне</a>
+                    </div>
+                </header>
+                <a class="menubutton" href="#menu">&#9776;</a>
+                <div id="menu" class="menu">
+                    <div class="menubody">
+                    <div class="menucontent">
+                    <a href="#" class="menuclose">X</a>
+                    <img style="position: absolute;left:450px;top:30px;width:10%"src="main2.png"href=#>
+                    <a style="position: absolute;top:150px;left:450px;color:black;font-size: x-large;" href=#>Каталог</a>
+                    <a style="position: absolute;top:250px;left:420px;color:black;font-size: x-large;" href=#>Преимущества</a>
+                    <a style="position: absolute;top:350px;left:420px;color:black;font-size: x-large;" href=#>Примеры работ</a>
+                    <a style="position: absolute;top:450px;left:450px;color:black;font-size: x-large;" href=#>Монтаж</a>
+                    <a style="position: absolute;top:550px;left:450px;color:black;font-size: x-large;" href=#>Отзывы</a>
+                    <a style="position: absolute;top:650px;left:410px;color:black;font-size: x-large;" href=#>Ответы на вопросы</a>
+                    <a style="position: absolute;top:750px;left:450px;color:black;font-size: x-large;" href=#>Контакты</a>
+                    <a style="position: absolute;top:850px;left:370px;font-weight: bold;">Кровельные и фасадные</a>
+                    <a style="position: absolute;top:850px;left:550px;font-weight:bold">материалы</a>
+                    <a style="position: absolute;top:870px;left:340;">в Тюмени и области.</a>
+                    <a style="position: absolute;left:490px;top:870px;">Профессиональный монтаж</a>
+                    <a style="position: absolute;left:460px;top:890px;">с 2010 года.</a>
+                    <button class="pdfbutton">Pdf</button>
+                    <a style="position: absolute;left:400px;top:950px;color:black;font-weight: bold;font-size: large;"href=#>Скачать прайс-каталог</a>
+                    <a style="position: relative;left:390px;top:1000px;font-size: large;">&bull; Отвечаем</a>
+                    <a style="position: relative;left:390px;top:1000px;font-weight: bold;">онлайн</a>
+                    <button class="viber"></button>
+                    <button class="whatsapp"></button>
+                    <button class="telegram"></button>
+                    </div>    
+                    </div>
+                    </div>
+                    <div class="content">                        
+                        <div id="popup" class="popup">
+                            <div class="popupbody">
+                            <div class="popupcontent">
+                            <a href="#" class="popupclose">X</a>
+                            <div class="popuptitle">
+                                Быстро оставить заявку
+                                <div class="popuptext">
+                                    Введите номер, мы позвоним вам в<br>
+                                    течение 10 минут в рабочее время<br>
+                                    Пн-Пт 9:00 - 18:00, Сб 10:00 - 18:00<br>
+                                    Введите номер телефона<br>
+                                    <input id="phone" type="text">
+                                    <script>
+                                        $(function(){
+                                            $("#phone").mask("+7(999) 999-99-99");
+                                        });
+                                    </script>
+                                    <button class="popupbutton">Позвоните мне &rarr;</button>
+                                    </div>
+                            </div>    
+                            </div>    
+                            </div>   
+                            </div>
+                        <a style="position: absolute;left:300px;top:0px;font-size:xxx-large;color:black">Продажа</a>
+                        <a style="position: absolute;left:490px;top:0px;font-size: xxx-large;color:black;font-weight: bold;">кровельных</a>
+                        <a style="position: absolute;left:300px;top:50px;font-size:xxx-large;color:black;font-weight: bold;">материалов</a>
+                        <a style="position: absolute;left:560px;top:50px;font-size: xxx-large;color:black;">в Тюмени</a>
+                        <a style="position: absolute;left:300px;top:100px;font-size: xxx-large;color:black;">и Тюменской области</a>
+                        <a style="position: absolute;left:320px;top:150px;font-size:xx-large;color:black">и монтаж под ключ</a>
+                        <button class="greenbutton">Рассчитать стоимость<br>
+                        материалов и монтажа</button>
+                        <button class="orangebutton">Записаться на<br>
+                        просмотр объектов</button>
+                        <a style="position:absolute;left:320px;top:230px;font-size:x-large;color:black;font-weight: bold;">Ответьте на несколько</a>
+                        <a style="position:absolute;left:565px;top:230px;font-size:x-large;color:black;font-weight: bold;">вопросов и получите</a>
+                        <a style="position:absolute;left:320px;top:250px;font-size:x-large;color:black;">сметную</a>
+                        <a style="position:absolute;left:420px;top:250px;font-size:x-large;color:black;">стоимость и 3 подарка за</a>
+                        <a style="position:absolute;left:320px;top:270px;font-size:x-large;color:black;">экономию нашего времени</a>
+                        <div class="container">
+                            <a style="position:absolute;left:430px;top:550px;font-size: medium;color:black;font-weight: bold;">Гарантия от 50 лет</a>
+                            <a style="position:absolute;left:430px;top:570px;font-size: medium;color:black;">на материалы и 5</a>
+                            <a style="position:absolute;left:430px;top:590px;font-size: medium;color:black;">лет на монтаж</a>
+                            <a style="position:absolute;left:430px;top:620px;font-size: medium;color:black;font-weight: bold;">Замер, монтажный</a>
+                            <a style="position:absolute;left:430px;top:640px;font-size: medium;color:black;font-weight: bold;">проект</a>
+                            <a style="position:absolute;left:480px;top:640px;font-size: medium;color:black;">и</a>
+                            <a style="position:absolute;left:430px;top:660px;font-size: medium;color:black;">еще 4 услуги</a>
+                            <a style="position:absolute;left:430px;top:680px;font-size: medium;color:black;">бесплатно</a>
+                            <a style="position:absolute;left:430px;top:710px;font-size: medium;color:black;font-weight: bold;">Сметы</a>
+                            <a style="position:absolute;left:430px;top:730px;font-size: medium;color:black;">точны до копейки</a>
+                            <a style="position:absolute;left:430px;top:760px;font-size: medium;color:black;font-weight: bold;">Поэтапная оплата,</a>
+                            <a style="position:absolute;left:430px;top:780px;font-size: medium;color:black;">кредит или рассрочка</a>
+                            <a style="position:absolute;left:430px;top:810px;font-size: medium;color:black;font-weight: bold;">Наши крыши в</a>
+                            <a style="position:absolute;left:430px;top:830px;font-size: medium;color:black;font-weight: bold;">каждом поселке</a>
+                            <a style="position:absolute;left:430px;top:850px;font-size: medium;color:black;">и дачном сообществе</a>
+                            <a style="position:absolute;left:430px;top:870px;font-size: medium;color:black;">региона</a>
+                        </div>
+                    </div>
+            </body>
+    </html>
